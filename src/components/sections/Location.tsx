@@ -94,12 +94,14 @@ export function Location() {
                   >
                     {clinic.phone}
                   </a>
+                  {clinic.email && (
                   <a
                     href={`mailto:${clinic.email}`}
                     className="text-secondary/70 hover:text-primary transition-colors block mt-1"
                   >
                     {clinic.email}
                   </a>
+                  )}
                 </div>
               </div>
             </div>

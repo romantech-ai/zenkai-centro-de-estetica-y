@@ -115,6 +115,7 @@ export function Footer() {
                   <span>{clinic.phone}</span>
                 </a>
               </li>
+              {clinic.email && (
               <li>
                 <a
                   href={`mailto:${clinic.email}`}
@@ -126,6 +127,7 @@ export function Footer() {
                   <span className="text-sm">{clinic.email}</span>
                 </a>
               </li>
+              )}
               <li>
                 <a
                   href={clinic.googleMapsUrl}
