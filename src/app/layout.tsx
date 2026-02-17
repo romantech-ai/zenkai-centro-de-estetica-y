@@ -69,12 +69,12 @@ export default function RootLayout({
           }}
         />
       
-        <script dangerouslySetInnerHTML={{ __html: `window.__WIDGET_API_URL="http://localhost:3000";window.__PROJECT_ID="zenkai-centro-de-estetica-y";` }} />
+        <script dangerouslySetInnerHTML={{ __html: `window.__WIDGET_API_URL="https://automatizacion-webs.vercel.app";window.__PROJECT_ID="zenkai-centro-de-estetica-y";` }} />
 
         <script
-          src="http://localhost:3000/widget.js"
+          src="https://automatizacion-webs.vercel.app/widget.js"
           data-project-name="Zenkai Centro de Estética y Relax"
-          data-api-url="http://localhost:3000"
+          data-api-url="https://automatizacion-webs.vercel.app"
           data-project-id="zenkai-centro-de-estetica-y"
           data-primary-color="#894512"
           defer
